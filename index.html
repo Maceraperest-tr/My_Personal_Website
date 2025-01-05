@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <header>
+        <h1> Ahmet OĞURTAN</h1>
+        <p> Mechnaical Engineer | Desinger</p>
+        <header>
+            <nav class="tabs">
+                <button data-tab="home" class="tab active">Home</button>
+                <button data-tab="projects" class="tab">Projects</button>
+                <button data-tab="about" class="tab">About Me</button>
+                <button data-tab="contact" class="tab">Contact</button>
+                <button data-tab="documents" class="tab">Documentation</button>
+            </nav>
+        </header>
+    </header>
+    <main>
+        <section id="home" class="content active">
+            <h2>Welcome to My Personal Website</h2>
+            <p> I'll provide informations and documentations regarding my projects in this Website. By doing so, I am getting familiar with html, css and java also securing my documents on an cloud.</p>
+        </section>
+        <section id="projects" class="content">
+
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="image/Oleo-Strut Model.png" alt="Image 1" class="active">
+                    <img src="image/acfobde.jpg" alt="Image 2">
+                    <img src="image/tracking output.png" alt="Image 3">
+                    <img src="image/bitirme projesi.png" alt="Image 4">
+                    <img src="image/ilk uçak.png" alt="Image 5">
+                    <img src="image/spagetti bridge blur.jpg" alt= "Image 6"  >
+                    <img src="image/afterburner.png" alt= "Image 7"  >
+                    <img src="image/rotary engine.png" alt= "Image 8"  >
+                    <img src="image/tekno iha.jpeg" alt= "Image 9"  >
+                    <img src="image/köpük iha.jpeg" alt= "Image 10"  >
+                    <img src="image/cfd matlab 2.png" alt= "Image 11"  >
+                    <img src="image/cfd matlab.png" alt= "Image 12"  >
+                    <img src="image/rg4.png" alt= "Image 13"  >
+                    <img src="image/W est.png" alt= "Image 14"  >
+                    <img src="image/xxflr1.png" alt= "Image 15"  >
+                    <img src="image/xflr2.png" alt= "Image 16"  >
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+
+        </section>
+        <section id="about" class="content">
+            <div class="profile-container"> 
+            <img src="image/Pp.jpg" width=300;>
+                <div class="profile-text">
+            <h2>That is me</h2>
+            <p> <ul>
+                <li>Mechanical Engineer who lives in TÜRKİYE</li>
+                <li>Born in 2000, trying to figure out the governing equation of live eversince.</li>
+                <li>Likes to learn but loves to use what he learned</li>
+                <li>interested in psychology,socilogy and positive sciences</li>
+                <li>Likes a good story</li>
+            </ul></p>
+            <h3>More about me</h3>
+            <p><h4>Some Hobbies</h4>
+            <ul><li>Model jet engine desing</li> <li>Model UAV desing</li><li>3D Modeling</li><li>Coding</li><li>Computer Games</li><li>Research regarding ground breaking technologies such as Invisibility, teleportation, unorthodox methos of harvesting wind energy</li></ul></p>
+                </div>
+            </div>
+            <style>
+                .profile-container {
+    display: flex; /* Enables side-by-side layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between image and text */
+    margin: 20px; /* Optional: Add some spacing around the container */
+}
+/*adsdassdsadasdsdbnmöhggfafosggvvgdçşcvçvxn. so much fuckimng funnn ı loce this shieretee get me out pleaseee ı need help*/
+.profile-container img {
+    border-radius: 8px; /* Optional: Rounds the image corners */
+}
+
+.profile-text h2 {
+    margin: 0 0 10px 0; /* Add spacing below the heading */
+}
+
+.profile-text ul {
+    list-style-type: disc; /* Ensures proper bullet points */
+    padding-left: 20px; /* Indents the list for better alignment */
+    margin: 0; /* Removes unnecessary margins */
+}
+            </style>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contact Information</h2>
+            <p>If you’d like to collaborate or have any questions, feel free to reach out:</p>
+            <ul>
+                <li>Email: <a href="https://workspace.google.com/intl/tr/gmail/" target="_blank">aogurtan2@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/ahmetogurtan2000/" target="_blank">www.linkedin.com/in/ahmetogurtan2000</a></li>           </a></li>
+                <li>GitHub: <a href="https://github.com/Maceraperest-tr" target="_blank">github.com/yourusername</a></li>
+            </ul>
+        </section>
+        <section id="documents" class="content">
+            <h1>Documentation</h1>
+        </section>
+    </main>
+    <script src="tab_movement.js"></script>
+        <p> &copy; All rights are public.2024 Ahmet OĞURTAN.</p>
+    </footer>
+</body>
+</html>
